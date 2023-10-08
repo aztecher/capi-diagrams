@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T08:49:27.236Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="F7WTADRVO9WVQCFssTLy" version="21.7.5" type="google" pages="5">
-  <diagram id="C5RBs43oDa-KdzZeNtuy" name="sequence-diagram">
+<mxfile host="app.diagrams.net" modified="2023-10-08T09:43:09.441Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="wZsTCt4z6L_A4oP9fDCk" version="22.0.0" type="google" pages="5">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="kcp creation sequence diagram">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -47,25 +47,25 @@
         <mxCell id="9UiaGdn9NneoMvXGy8pM-0" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xfaPNnZRIsi5CIh0o9ph-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="100" as="sourcePoint" />
-            <mxPoint x="140" y="3420" as="targetPoint" />
+            <mxPoint x="140" y="4540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9UiaGdn9NneoMvXGy8pM-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xfaPNnZRIsi5CIh0o9ph-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="90" as="sourcePoint" />
-            <mxPoint x="540" y="3420" as="targetPoint" />
+            <mxPoint x="540" y="4530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9UiaGdn9NneoMvXGy8pM-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xfaPNnZRIsi5CIh0o9ph-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="940" y="320" as="sourcePoint" />
-            <mxPoint x="940" y="3430" as="targetPoint" />
+            <mxPoint x="940" y="4530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9UiaGdn9NneoMvXGy8pM-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xfaPNnZRIsi5CIh0o9ph-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1550" y="90" as="sourcePoint" />
-            <mxPoint x="1540" y="3430" as="targetPoint" />
+            <mxPoint x="1540" y="4530" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1540" y="580" />
             </Array>
@@ -94,21 +94,6 @@
             <mxGeometry x="90" y="470" width="220" height="30" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="01ru8HnXRhpPKuoOUK4B-4" value="" style="endArrow=none;html=1;rounded=0;dashed=1;strokeWidth=2;strokeColor=#FFB570;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-260" y="577.63" as="sourcePoint" />
-            <mxPoint x="1570" y="578" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="01ru8HnXRhpPKuoOUK4B-5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FFB570;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-140" y="577.63" as="sourcePoint" />
-            <mxPoint x="-140" y="537.63" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="01ru8HnXRhpPKuoOUK4B-7" value="&amp;lt;&amp;nbsp;&lt;b&gt;&lt;font color=&quot;#ff031c&quot;&gt;Phase1&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&amp;gt;&lt;br&gt;Infrastructure.cluster.x-k8s.io&lt;br&gt;XXXCluster status is Ready&lt;br&gt;&lt;br&gt;Refered by cluster.x-k8s.io Cluster" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-270" y="457.63" width="230" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="KOVakj37ok9e6TtMFN-b-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="140" y="590" as="sourcePoint" />
@@ -123,12 +108,12 @@
         </mxCell>
         <UserObject label="&lt;div style=&quot;text-align: center;&quot;&gt;&amp;nbsp;＜ reconcileInfrastructure ＞&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・Retrieve &lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;OpenStackCluster&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; from &lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Cluster.Spec.InfrastructureRef&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;・Retrieve some information from infrastructure and sync it to Cluster&lt;/div&gt;&lt;div style=&quot;&quot;&gt;　・&lt;b&gt;Cluster.Status.InfrastructureReady&lt;/b&gt; = &lt;b&gt;OpenStackCluster.Status.Ready&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;　・&lt;b&gt;Cluster.Spec.ControlPlaneEndpoint&lt;/b&gt; = &lt;b&gt;OpenStackCluster.Spec.ControlPlaneEndpoint&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;　・&lt;b&gt;Cluster.Status.FailureDomain &lt;/b&gt;= &lt;b&gt;OpenStack.Status.FailureDomain&lt;/b&gt;&lt;/div&gt;" link="https://github.com/kubernetes-sigs/cluster-api/blob/main/internal/controllers/cluster/cluster_controller_phases.go#L183-L214" id="gd78qVggPRkEUmriDfOX-5">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-            <mxGeometry x="761" y="650" width="529" height="120" as="geometry" />
+            <mxGeometry x="850" y="650" width="529" height="120" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;＜ reconcilePhase ＞&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Cluster.Status.InfrastructureReady&lt;/b&gt; &amp;amp;&amp;amp; &lt;b&gt;Cluster.Spec.ControlPlaneEndpoint&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;=&amp;gt; &lt;b&gt;Cluster.Status.Phase.Provisioned&lt;/b&gt;&lt;/div&gt;" link="https://github.com/kubernetes-sigs/cluster-api/blob/main/internal/controllers/cluster/cluster_controller_phases.go#L55-L57" id="gd78qVggPRkEUmriDfOX-7">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-            <mxGeometry x="761" y="810" width="480" height="70" as="geometry" />
+            <mxGeometry x="850" y="810" width="480" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="gd78qVggPRkEUmriDfOX-10" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -266,19 +251,19 @@
             <mxPoint x="540" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g-v6_2hosOyxJWGCfkAE-12" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="g-v6_2hosOyxJWGCfkAE-12" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540" y="900" as="sourcePoint" />
+            <mxPoint x="540" y="920" as="sourcePoint" />
             <mxPoint x="540" y="980" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="600" y="900" />
+              <mxPoint x="600" y="920" />
               <mxPoint x="600" y="980" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <UserObject label="Generate &lt;b&gt;kubeconfig&lt;/b&gt; Secret" link="https://github.com/kubernetes-sigs/cluster-api/blob/main/controlplane/kubeadm/internal/controllers/controller.go#L364-L370" id="g-v6_2hosOyxJWGCfkAE-15">
+        <UserObject label="Generate &lt;b&gt;kubeconfig&lt;/b&gt; &lt;b&gt;Secret&lt;/b&gt;" link="https://github.com/kubernetes-sigs/cluster-api/blob/main/controlplane/kubeadm/internal/controllers/controller.go#L364-L370" id="g-v6_2hosOyxJWGCfkAE-15">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-            <mxGeometry x="550" y="920" width="240" height="40" as="geometry" />
+            <mxGeometry x="550" y="930" width="240" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="Vjft1lGObwCoVNcR9MzN-0" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -415,7 +400,7 @@
             <mxGeometry x="950" y="1980" width="360" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&amp;nbsp;＜ reconcileInfrastructure ＞&lt;br&gt;Waiting for&lt;br&gt;&lt;b&gt;OpenStackMachine.Status.Ready&amp;nbsp;&lt;/b&gt;is&lt;b&gt; True&lt;br&gt;&lt;/b&gt;" link="https://github.com/kubernetes-sigs/cluster-api/blob/main/internal/controllers/machine/machine_controller_phases.go#L279-L281" id="31veatcvXabuM6n3mju--16">
+        <UserObject label="&amp;nbsp;＜ reconcileInfrastructure ＞&lt;br&gt;Waiting for&lt;br&gt;&lt;b&gt;OpenStackMachine.Status.Ready&amp;nbsp;&lt;/b&gt;is&lt;b&gt; True&lt;br&gt;&lt;/b&gt;" link="https://github.com/kubernetes-sigs/cluster-api/blob/main/internal/controllers/machine/machine_controller_phases.go#L290-L294" id="31veatcvXabuM6n3mju--16">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
             <mxGeometry x="950" y="2290" width="340" height="62" as="geometry" />
           </mxCell>
@@ -536,9 +521,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <UserObject label="Waiting for set&lt;br&gt;&lt;b&gt;OpenStackMachine.Spec.Bootstrap.DataSecretName&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" link="https://github.com/kubernetes-sigs/cluster-api-provider-openstack/blob/v0.7.3/controllers/openstackmachine_controller.go#L316-L321" id="31veatcvXabuM6n3mju--47">
+        <UserObject label="Waiting for set&lt;br&gt;&lt;b&gt;Machine.Spec.Bootstrap.DataSecretName&lt;br&gt;&lt;/b&gt;Machine is retrieved from the owner of OpenStackMachine" link="https://github.com/kubernetes-sigs/cluster-api-provider-openstack/blob/v0.7.3/controllers/openstackmachine_controller.go#L316-L321" id="31veatcvXabuM6n3mju--47">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-            <mxGeometry x="150" y="2290" width="340" height="50" as="geometry" />
+            <mxGeometry x="150" y="2290" width="360" height="50" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="31veatcvXabuM6n3mju--48" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -564,6 +549,241 @@
         </mxCell>
         <mxCell id="fxvNcrM4MveXy_DPgTpj-0" value="Legends&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Bold&lt;/b&gt;&amp;nbsp;: The Kubernetes Resource Data&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0000ff&quot;&gt;Blue&lt;/font&gt;&amp;nbsp;: The relationship between Kubernetes Resources&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;lt; Func &amp;gt; : The function name&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Rounded rectangle is basically has hyperlink to the actual code ( please click )&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-600" y="43" width="455" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="dfYB85Jv6Tvpu-4wAcZJ-0" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="141" y="2640" as="sourcePoint" />
+            <mxPoint x="140" y="2860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="201" y="2640" />
+              <mxPoint x="200" y="2860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="　Get CloudInit data from &lt;b&gt;Secret&lt;/b&gt; that name is provided from Machine.Spec.Bootstrap.DataSecretName&lt;br&gt;&lt;div&gt;　Create VM by openstack&lt;/div&gt;&lt;div&gt;　&amp;nbsp; - Spec data are provided from &lt;b&gt;OpenStackCluster&lt;/b&gt;, &lt;b&gt;OpenStackMachine&lt;/b&gt;, &lt;b&gt;Machine &lt;/b&gt;and above&amp;nbsp;CloudInit&lt;/div&gt;&lt;div&gt;　&amp;nbsp; - Construct Network as needed&lt;/div&gt;&lt;div&gt;　Get instance status （polling VM bootstrap）&lt;/div&gt;&lt;div&gt;　Update status&lt;/div&gt;&lt;div&gt;&lt;div&gt;　&amp;nbsp; &lt;b&gt;OpenStackMachine.Spec.ProviderID = fmt.Sprintf(&quot;openstack:///%s&quot;, instanceStatus.ID())&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;　&amp;nbsp; OpenStackMachine.Spec.InstanceID = instanceStatus.ID()&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;　&amp;nbsp; OpenStackMachine.Status.InstnaceState = instanceStatus.State()&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;　&amp;nbsp; OpenStackMachine.Status.Address = &amp;lt;instnace address&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;　&amp;nbsp; OpenStackMachine.Status.Ready = true&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" link="https://github.com/kubernetes-sigs/cluster-api-provider-openstack/blob/main/controllers/openstackmachine_controller.go#L313-L443" id="dfYB85Jv6Tvpu-4wAcZJ-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="-110" y="2657" width="600" height="183" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="dfYB85Jv6Tvpu-4wAcZJ-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="2880" as="sourcePoint" />
+            <mxPoint x="940" y="2880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfYB85Jv6Tvpu-4wAcZJ-4" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="2880" as="sourcePoint" />
+            <mxPoint x="940" y="3030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="2880" />
+              <mxPoint x="1000" y="3030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&amp;nbsp;＜ reconcileInfrastructure ＞&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Machine.Status.InfrastructureReady = OpenStackMachine.Status.Ready&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Machine.Spec.ProviderID =&lt;/b&gt; &lt;b&gt;OpenStackMachine.Spec.ProviderID&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Machine.Status.Addresses = OpenStackMachine.Status.Addresses&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Machine.Spec.FailureDomain = OpenStackMachine.Status.FailureDomain&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;" link="https://github.com/kubernetes-sigs/cluster-api/blob/main/internal/controllers/machine/machine_controller_phases.go#L274-L321" id="dfYB85Jv6Tvpu-4wAcZJ-5">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="950" y="2900" width="480" height="110" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="dfYB85Jv6Tvpu-4wAcZJ-6" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="939" y="3220" as="sourcePoint" />
+            <mxPoint x="939" y="3500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="999" y="3220" />
+              <mxPoint x="999" y="3500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&amp;nbsp;＜ reconcileNode ＞&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Get workload cluster client&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Get workload node that has &lt;/span&gt;&lt;b&gt;Node.Spec.ProviderID&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Machine.Status.NodeRef = &amp;lt;Workload Node&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Machine.Status.NodeInfo = node.Status.NodeInfo&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Node.Metadata.Annotations&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; - cluster.x-k8s.io/cluster-name = &lt;b&gt;Machine.Spec.ClusterName&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; - cluster.x-k8s.io/cluster-namespace = &lt;b&gt;Machine.Metadata.Namespace&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; - cluster.x-k8s.io/machine = &lt;b&gt;Machine.Metadata.Name&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; -&amp;nbsp;cluster.x-k8s.io/owner-kind = &lt;b&gt;Machine.Metadata.OwnerReferences.Kind (KubeadmControlPlane)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; -&amp;nbsp;cluster.x-k8s.io/owner-name = &lt;b&gt;Machine.Metadata.OwnerReferences.Name&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Check &lt;b&gt;Node.Status.Conditions&lt;/b&gt; semantically a&lt;span style=&quot;background-color: initial;&quot;&gt;nd if node condition is healty, then&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Machine.Status.Conditions = NodeHealty&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" link="https://github.com/kubernetes-sigs/cluster-api/blob/main/internal/controllers/machine/machine_controller_noderef.go#L63-L157" id="dfYB85Jv6Tvpu-4wAcZJ-7">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="809" y="3234" width="630" height="246" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="dfYB85Jv6Tvpu-4wAcZJ-9" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="939" y="4110" as="sourcePoint" />
+            <mxPoint x="939" y="4270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="999" y="4110" />
+              <mxPoint x="999" y="4270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&amp;nbsp;＜ reconcileCertificateExpiry ＞&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;Process following logic If the machine is control plane&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Check if &lt;b&gt;Machine.Metadata.Annotations&lt;/b&gt; has 「&lt;span style=&quot;background-color: initial;&quot;&gt;machine.cluster.x-k8s.io/certificates-expiry」&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp;=&amp;gt; Set &lt;b&gt;Machine.Status.CertificatesExpiryDate&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;else if &lt;b&gt;KubeadmConfig.Metadata.Annotations&lt;/b&gt; has 「machine.cluster.x-k8s.io/certificates-expiry」&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp;=&amp;gt; Set &lt;b&gt;Machine.Status.CertificatesExpiryDate&lt;/b&gt;&lt;/div&gt;" link="https://github.com/kubernetes-sigs/cluster-api/blob/main/internal/controllers/machine/machine_controller_phases.go#L325" id="dfYB85Jv6Tvpu-4wAcZJ-10">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="809" y="4127" width="640" height="130" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="oCrjSo22_eZG0TeXv7a6-0" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.995;exitY=0.543;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-181.6500000000001" y="3221.902" as="sourcePoint" />
+            <mxPoint x="940" y="3220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oCrjSo22_eZG0TeXv7a6-2" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="3050" as="sourcePoint" />
+            <mxPoint x="940" y="3151" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="3050" />
+              <mxPoint x="1000" y="3151" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;＜ reconcilePhase ＞&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Machine.Status.BootstrapReady &amp;amp;&amp;amp; Machine.Status.InfrastructureReady&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;=&amp;gt; Machine&lt;/span&gt;&lt;b style=&quot;background-color: initial; border-color: var(--border-color);&quot;&gt;.Status.Phase.Provisioning&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Machine.Spec.ProviderID &lt;/b&gt;is not nill&amp;nbsp;=&amp;gt; &lt;b&gt;Machine&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;.Status.Phase.Provisioned&lt;/b&gt;&lt;/div&gt;" id="oCrjSo22_eZG0TeXv7a6-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="860.5" y="3061" width="659" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="oCrjSo22_eZG0TeXv7a6-6" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="939" y="4290" as="sourcePoint" />
+            <mxPoint x="939" y="4391" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="999" y="4290" />
+              <mxPoint x="999" y="4391" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;＜ reconcilePhase ＞&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Machine.Status.Noderef&lt;/b&gt; is not nil &amp;amp;&amp;amp;&lt;b&gt; Machine.Status.InfrastructureReady&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;=&amp;gt; &lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Machine.Status.Phase.Running&lt;/b&gt;&lt;/div&gt;" id="oCrjSo22_eZG0TeXv7a6-7">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="809" y="4305" width="660" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ApD_89TyXpNjRMCBsfqb-0" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="790" as="sourcePoint" />
+            <mxPoint x="540" y="910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="790" />
+              <mxPoint x="600" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&amp;nbsp;Generate following&lt;b&gt;&amp;nbsp;Secrets&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; ・&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;ClusterName&amp;gt;-[ca | sa | etcd | proxy ]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&amp;nbsp;Set&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0000ff&quot;&gt;OwnerReference :&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0000ff&quot;&gt;&amp;nbsp;Secret -(own)-&amp;gt; KubeadmControlPlane&lt;/font&gt;&lt;/div&gt;" link="https://github.com/kubernetes-sigs/cluster-api/blob/main/controlplane/kubeadm/internal/controllers/controller.go#L353-L356" id="ApD_89TyXpNjRMCBsfqb-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="550" y="800" width="240" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ApD_89TyXpNjRMCBsfqb-3" value="ここでOpenStackでVMが起動し、&lt;br&gt;CloudInitの内容で必要なセットアップと&lt;br&gt;kubeadm initとかが実行されることになる。&lt;br&gt;&lt;br&gt;＜TODO＞&lt;br&gt;二代目以降の場合は kubeadm join が実施されてほしくない？&lt;br&gt;kubeadm init -&amp;gt; joinみたいなパスがある？&lt;br&gt;&lt;br&gt;もしくは、cloud-initの内容が変わる？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-60" y="2943.5" width="380" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="ApD_89TyXpNjRMCBsfqb-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-320" y="2920" as="sourcePoint" />
+            <mxPoint x="540" y="2920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApD_89TyXpNjRMCBsfqb-5" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="539.5" y="2920" as="sourcePoint" />
+            <mxPoint x="540" y="3210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="599.5" y="2920" />
+              <mxPoint x="600" y="3210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;＜ reconcileControlPlaneConditions ＞&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Get workload client and check the following pod status of all control-plane machine&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;・ kube-api-&amp;lt;control-plane-machine-name&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;・ kube-scheduler-&amp;lt;control-plane-machine-name&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;・ kube-controller-manager-&amp;lt;control-plane-machine-name&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;・ etcd-&amp;lt;control-plane-machine-name&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;If pod status is &#39;Running&#39;, then mark the machine conditions as True&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;・ &lt;b&gt;APIServerPodHealty&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;・ &lt;b&gt;SchedulerPodHealty&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;・ &lt;b&gt;ControllerManagerPodHealty&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;・ &lt;b&gt;EtcdPodHealty&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;And also checks whether the etcd members are expected or not.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;If expected, then mark the machine condition &#39;&#39;&lt;b&gt;EtcdMemberHealty&lt;/b&gt;&quot; as True&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;and the machine condition &quot;&lt;b&gt;EtcdClusterHealty&lt;/b&gt;&quot; as True&lt;/div&gt;" link="https://github.com/kubernetes-sigs/cluster-api/blob/main/controlplane/kubeadm/internal/controllers/controller.go#L382-L384" id="ApD_89TyXpNjRMCBsfqb-6">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="390" y="2931" width="450" height="269" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ApD_89TyXpNjRMCBsfqb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ApD_89TyXpNjRMCBsfqb-6" target="ApD_89TyXpNjRMCBsfqb-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApD_89TyXpNjRMCBsfqb-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="3500" as="sourcePoint" />
+            <mxPoint x="540" y="3500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApD_89TyXpNjRMCBsfqb-12" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="539.5" y="3510" as="sourcePoint" />
+            <mxPoint x="540" y="3590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="599.5" y="3510" />
+              <mxPoint x="600" y="3590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;＜ reconcileEtcdMembers ＞&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Get workload client and reconcile etcd for all control-plane node&#39;s etcd.&lt;/span&gt;&lt;/div&gt;" link="https://github.com/kubernetes-sigs/cluster-api/blob/main/controlplane/kubeadm/internal/controllers/controller.go#L388-L390" id="ApD_89TyXpNjRMCBsfqb-13">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="390" y="3521" width="450" height="59" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ApD_89TyXpNjRMCBsfqb-16" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="539.5" y="3660" as="sourcePoint" />
+            <mxPoint x="540" y="3800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="599.5" y="3660" />
+              <mxPoint x="600" y="3800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;＜ UpdateKubeProxyImageInfo ＞&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;Get version tag from &lt;b&gt;kcp.Spec.Version&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;and Update the kube-proxy&#39;s container r&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;egistry image tag.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp;The responsibility for deploying kube-proxy lies with kubeadm.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp;This process is responsible for changing the image version in accordance with kcp updates.&lt;/div&gt;" link="https://github.com/kubernetes-sigs/cluster-api/blob/main/controlplane/kubeadm/internal/controllers/controller.go#L460-L464" id="ApD_89TyXpNjRMCBsfqb-17">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="390" y="3670" width="530" height="119" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="numMachines = desiredReplicas" link="https://github.com/kubernetes-sigs/cluster-api/blob/main/controlplane/kubeadm/internal/controllers/controller.go#L440" id="ApD_89TyXpNjRMCBsfqb-19">
+          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="435" y="3610" width="210" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ApD_89TyXpNjRMCBsfqb-21" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="3810" as="sourcePoint" />
+            <mxPoint x="540" y="4060" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="3810" />
+              <mxPoint x="600" y="4060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;＜ UpdateCoreDNS ＞&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Get CoreDNS related informations needed for the upgrade&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;If kcp.Spec.kubeadmConfigSpec.clusterConfiguration.dns.imageTag is defined&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;and&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;different from current tag, then execute following functions&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・updateCoreDNSImageInfoInKubeadmConfigMap&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; - Update &lt;b&gt;ConfigMap.Data&lt;/b&gt;&#39;s &lt;b&gt;ClusterConfiguration.DNS.ImageRepository&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; - Update &lt;b&gt;ConfigMap.Data&lt;/b&gt;&#39;s &lt;b&gt;ClusterConfiguration.DNS.ImageTag&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・updateCoreDNSCorefile&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; - Migrate coredns corefile&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・updatecoreDNSDeployment&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; - Patch CoreDNS deployment image, ...etc&lt;/span&gt;&lt;/div&gt;" link="https://github.com/kubernetes-sigs/cluster-api/blob/main/controlplane/kubeadm/internal/controllers/controller.go#L466-L469" id="ApD_89TyXpNjRMCBsfqb-22">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="390" y="3820" width="530" height="230" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ApD_89TyXpNjRMCBsfqb-24" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="4112" as="sourcePoint" />
+            <mxPoint x="540" y="4240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="4112" />
+              <mxPoint x="600" y="4240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&amp;nbsp;＜ reconcileCertificateExpiries ＞&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;If KubeadmConfig.Metradata.Annotations doesn&#39;t have&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;「&lt;b&gt;machine.cluster.x-k8s.io/certificates-expiry&lt;/b&gt;」,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;then set the expiry date&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;retrieved from workload cluster&#39;s kube-apiserver&lt;/span&gt;&lt;/div&gt;" link="https://github.com/kubernetes-sigs/cluster-api/blob/main/controlplane/kubeadm/internal/controllers/controller.go#L475C1-L478" id="ApD_89TyXpNjRMCBsfqb-26">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="390" y="4127" width="390" height="93" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="wAwyFI6jxsucVhHPXKm--2" value="openstack-cloud-controller-manager&lt;br&gt;（external cloud-provider)&lt;br&gt;&lt;br&gt;Provides &lt;b&gt;Node.Spec.ProviderID&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-480" y="3180" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wAwyFI6jxsucVhHPXKm--5" value="&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Get &lt;b&gt;Machine&lt;/b&gt; information from &lt;b&gt;OpenStackMachine.Metadata.OwnerReferences&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Get &lt;b&gt;Secret&lt;/b&gt; from &lt;b&gt;Machine.Spec.Bootstrap.DataSecretName&lt;/b&gt; （This secret contains the contents of cloudinit）&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Try to get instance, and if the instance not found, then create it.&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Call ＜ machineToInstanceSpec ＞ function with &lt;b&gt;OpenStackCluster&lt;/b&gt;, &lt;b&gt;Machine&lt;/b&gt;, &lt;b&gt;OpenStackMachine&lt;/b&gt;, and userData (cloudinit) &lt;b&gt;Secret&lt;/b&gt; to create instance spec data.&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; - Basically, spec data is derived from &lt;b&gt;OpenstackMachine.Spec&lt;/b&gt;&lt;br&gt;&amp;nbsp; - UserData from &lt;b&gt;Secret&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; - instanceSpec.FailureDomain = &lt;b&gt;Machine.Spec.FailureDomain&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; - instanceSpec.Tags = uniq(&lt;b&gt;OpenStackMachine.Spec.Tags&lt;/b&gt; + &lt;b&gt;OpenStackCluster.Spec.Tags&lt;/b&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; - instanceSpec.SecurityGroups = &lt;b&gt;OpenStackMachine.Spec.SecuriyGroups&lt;/b&gt; + &lt;b&gt;OpenStackCluster.Spec&lt;/b&gt;.....&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; - instanceSpec.Networks = &lt;b&gt;OpenStackMachine.Spec.Networks&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; - instanceSpec.Ports = &lt;b&gt;OpenStackMachine.Spec.Ports&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Call ＜ CreateInstance ＞ function with &lt;b&gt;OpenStackMachine&lt;/b&gt;, &lt;b&gt;OpenStackCluster&lt;/b&gt;, instanceSpec, cluster.Name&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; - Get imageID from instanceSpec.ImageUUID or instanceSpec.Image&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; - Get flavorID from instanceSpec.Flavor&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; - Call ＜ constructNetworks ＞&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; - Get security group from instanceSpec.SecurityGroup&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; - Handle port, fixedIP from the result of constructNetworks&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; - Get root volume from &lt;b&gt;OpenStackMachine.Spec.RootVolume&lt;/b&gt;,&amp;nbsp; if missing, create image.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; - Construct CreateOps struct and call ＜ CreateServer ＞ function to create instance.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Polling and monitoring the status until the Instance becomes ACTIVE（with retry and timeout）&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;The result of Polling is obtained as an instanceStatus struct&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Update spec and status as follows&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; - &lt;b&gt;OpenStackMachine.Spec.ProviderID&lt;/b&gt; = fmt.Sprintf(&quot;openstack:///%s&quot;, instanceStatus.ID())&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; - &lt;b&gt;OpenStackMachine.Spec.InstanceID&lt;/b&gt; = instanceStatus.ID()&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; - &lt;b&gt;OpenStackMachine.Status.InstnaceState&lt;/b&gt; = instanceStatus.State()&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; - &lt;b&gt;OpenStackMachine.Status.Address&lt;/b&gt; = &amp;lt;instnace address&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;If instanceStatus.State() is &quot;ACTIVE&quot;, then set the condition &quot;&lt;b&gt;InstanceReady&lt;/b&gt;&quot; to &lt;b&gt;OpenStackMachine&lt;/b&gt;.&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;The case that created instance is for worker node (not for control plane), return this function as &quot;Reconciled machine create successfully&quot;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;If the created instance is for control plane, then need to handle LoadBalancer, floating IP related logic.&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Case : &lt;b&gt;OpenStackCluster.Spec.APIServerLoadBalancer.Enabled&lt;/b&gt; is True&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; - Call ＜ reconcileLoadBalancerMember ＞ function&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; - If the result of calling above function is err, then mark &quot;&lt;b&gt;APIServerIngressReadyCondition&lt;/b&gt;&quot; is False and the reason is ”&lt;b&gt;LoadBalancerMemberError&lt;/b&gt;”&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; - Otherwise &quot;&lt;b&gt;APIServerIngressReadyCondition&lt;/b&gt;&quot; is True&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Case : &lt;b&gt;OpenStackCluster.Spec.APIServerLoadBalancer.Enabled&lt;/b&gt; is False and &lt;b&gt;OpenStackCluster.Spec.DisableAPIServerFloatingIP&lt;/b&gt; is False&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; - If &lt;b&gt;OpenStackCluster.Spec.APIServerFloatingIP&lt;/b&gt; is defined then use it as floating ip address, otherwise &lt;b&gt;OpenstackCluster.Spec.ControlPlaneEndpoint.Host&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; - Get or create flaoting IP address （openstack neutron）&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; - Get management or external port for instance, and associate floating IP address and port.&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; - All of above logic are succeeded, then mark the condition of &lt;b&gt;OpenStackCluster&lt;/b&gt;&#39;s&amp;nbsp; &quot;&lt;b&gt;APIServerIngressReadyCondition&lt;/b&gt;&quot; is True&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Case : OpenStackCluster.Spec.DisableAPIServerFloatingIP is True&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; - Skip above condition related logic&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; - And &quot;&lt;b&gt;APIServerIngressReadyCondition&lt;/b&gt;&quot; is True&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-800" y="1840" width="880" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="XpJ4l908Trm4dATRl4G8-0" value="" style="endArrow=oval;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dfYB85Jv6Tvpu-4wAcZJ-1" target="wAwyFI6jxsucVhHPXKm--5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="2760" as="sourcePoint" />
+            <mxPoint x="-330" y="2630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-360" y="2749" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpJ4l908Trm4dATRl4G8-1" value="Detail" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="XpJ4l908Trm4dATRl4G8-0">
+          <mxGeometry x="0.6931" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
