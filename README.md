@@ -19,45 +19,12 @@ Now, I am targetting the version of cluster-api is v1.5.1 and cluster-api openst
 
 ### Change Log
 
+* 2023/10/09 Complete to write '(first) kcp creation' and 'worker creation' sequences.  
+  - 'Complete' means that I was able to write down enough information to fully understand what I wanted to know, not all of the process.
+  - If you want to quick review, please refere to the [png](./png) directory.  
+  - If you want to see the figures in a different (non-png) format, or to change the contents in your own way, you are free clone this repository and modify it as you wish.
+    - Hopefully, we will be happy to send your changes to this repository as a PR and enhance the content of this repository.
 * 2023/09/18 Create repository and add first contents.  
   - Sequence diagram ('sequence-diagram' sheet) between [cluster-api](https://github.com/kubernetes-sigs/cluster-api/tree/v1.5.1) and [cluster-api openstack provider](https://github.com/kubernetes-sigs/cluster-api-provider-openstack/tree/v0.7.3) when creating workload k8s cluster.
     - KubeadmControlPlane creation sequence (NOW EDTTING)
   - Relationship between each controller and CR.
-    - 'capo-controllers' sheet contains following Controller/CR relationship and deployed as 'capo-controller-manager' pod.
-      - Controller/Reconciler
-        - OpenStackClusterReconciler
-        - OpenStackMachineReconciler
-      - CustomResource
-        - cluster-api-provider-openstack/api/v1alpha6
-          - OpenStackCluster
-          - OpenStackMachine
-        - cluster-api/api/v1beta1
-          - Cluster
-          - Machine
-    - 'capi-control-plane-controllers' sheet contains following Controller/CR relationship and deployed as 'capi-kubeadm-control-plane-controller-manager' pod.
-      - Controller/Reconciler
-        - KubeadmControlPlaneReconciler
-      - CustromResource
-        - cluster-api/controlplane/kubeadm/api/v1beta1
-          - KubeadmControlPlane
-        - cluster-api/api/v1beta1
-          - Cluster
-          - Machine
-    - 'capi-controllers' sheet contains following Controller/CR relationship and deployed as 'capi-controller-manager' pod.
-      - Controller/Reconciler
-        - ClusterReconciler
-        - MachineReconciler
-      - CustromResource
-        - cluster-api/api/v1beta1
-          - Cluster
-          - Machine
-    - 'capi-kubeadm-bootstrap-controllers'p sheet contains following Controller/CR relationship and deployed as 'capi-kubeadm-bootstrap-controller-manager' pod.
-      - Controller/Reconciler
-        - KubeadmConfigReconciler
-      - CustromResource
-        - cluster-api/bootstrap/kubeadm/api/v1beta1
-          - KubeadmConfig
-        - cluster-api/api/v1beta1
-          - Cluster
-          - Machine
-
