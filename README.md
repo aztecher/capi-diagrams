@@ -19,6 +19,12 @@ Now, I am targetting the version of cluster-api is v1.5.1 and cluster-api openst
 
 ### Change Log
 
+* 2023/11/21 Update KCP creation diagram and add CR-Controller relationship diagram.  
+  - About KCP creation diagram
+    - Fix mistakes
+    - Add sequence after setup KCP resource (after 「kubeadm init」in workload cluster)
+  - About CR-Controller relationship diagram
+    - Showing which controller is responsible for 'For', 'Owns' and 'Watches' for each Custom Resource.
 * 2023/10/09 Complete to write '(first) kcp creation' and 'worker creation' sequences.  
   - 'Complete' means that I was able to write down enough information to fully understand what I wanted to know, not all of the process.
   - If you want to quick review, please refere to the [png](./png) directory.  
