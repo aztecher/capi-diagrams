@@ -19,6 +19,7 @@ Now, I am targetting the version of cluster-api is v1.5.1 and cluster-api openst
 
 ### Change Log
 
+* 2024/02/12 Add MHC logic diagram
 * 2023/11/21 Update KCP creation diagram and add CR-Controller relationship diagram.  
   - About KCP creation diagram
     - Fix mistakes
@@ -32,5 +33,5 @@ Now, I am targetting the version of cluster-api is v1.5.1 and cluster-api openst
     - Hopefully, we will be happy to send your changes to this repository as a PR and enhance the content of this repository.
 * 2023/09/18 Create repository and add first contents.  
   - Sequence diagram ('sequence-diagram' sheet) between [cluster-api](https://github.com/kubernetes-sigs/cluster-api/tree/v1.5.1) and [cluster-api openstack provider](https://github.com/kubernetes-sigs/cluster-api-provider-openstack/tree/v0.7.3) when creating workload k8s cluster.
-    - KubeadmControlPlane creation sequence (NOW EDTTING)
+    - KubeadmControlPlane creation sequence
   - Relationship between each controller and CR.
